@@ -6,7 +6,7 @@
 
 group = 'com.example'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '11'
+sourceCompatibility = '17'
 
 configurations {
 	compileOnly {
@@ -24,6 +24,10 @@ dependencies {
 
 	//JdbcTemplate 추가
 	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+
+	//MyBatis 스프링 부트 3.0 추가
+	implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.2.0'
+
 	//H2 데이터베이스 추가
 	runtimeOnly 'com.h2database:h2'
 
