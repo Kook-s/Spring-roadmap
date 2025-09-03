@@ -44,6 +44,5 @@ public class LogInterceptor implements HandlerInterceptor {
         if(ex != null) {
             log.error("afterCompletion error!!", ex);
         }
-
     }
 }

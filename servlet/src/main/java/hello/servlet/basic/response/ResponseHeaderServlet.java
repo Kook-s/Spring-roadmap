@@ -33,7 +33,6 @@ public class ResponseHeaderServlet extends HttpServlet {
 
         PrintWriter writer = response.getWriter();
         writer.println("ok");
-
     }
 
     private void content(HttpServletResponse response) {

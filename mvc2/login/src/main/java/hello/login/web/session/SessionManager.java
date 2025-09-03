@@ -70,8 +70,6 @@ public class SessionManager {
             sessionStore.remove(sessionCookie.getValue());
         }
     }
-
-
 }
 
 

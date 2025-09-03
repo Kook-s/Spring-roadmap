@@ -55,7 +55,6 @@ public class LogCheckFilter implements Filter {
     private boolean isLoginCheckPath(String requestURI) {
         return !PatternMatchUtils.simpleMatch(whitelist, requestURI);
     }
-
 }
 
 
